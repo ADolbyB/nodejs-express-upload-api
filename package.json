@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-express-upload-api",
+  "version": "0.9.0",
+  "description": "A tutorial on building a web-based file upload API using NodeJS & Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADolbyB/nodejs-express-upload-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "file",
+    "upload"
+  ],
+  "author": "Joel Brigida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ADolbyB/nodejs-express-upload-api/issues"
+  },
+  "homepage": "https://github.com/ADolbyB/nodejs-express-upload-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
